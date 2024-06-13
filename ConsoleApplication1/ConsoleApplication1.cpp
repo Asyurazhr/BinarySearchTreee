@@ -117,3 +117,20 @@ public:
 };
 
 int main()
+{
+    binarytree x;
+    while (true) {
+        cout << " \nMenu" << endl;
+        cout << "1. implement insert operation" << endl;
+        cout << "2. perfrom insert operation" << endl;
+        cout << "3.  perfrom preorder operation" << endl;
+        cout << "4.  perfrom postorder operation" << endl;
+        cout << "5.exit" << endl;
+        cout << "\nEnter your choise (1-5) :";
+    }
+
+    char ch;
+    cin >> ch;
+    cout << endl;
+
+  
